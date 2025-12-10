@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Upgrade Node.js, clean install, and run dev server",
+			"command": "echo Please manually upgrade Node.js to v20.19.0 or newer from https://nodejs.org/ and restart your terminal. Then run: npm install && npm run dev",
+			"isBackground": false
+		}
+	]
+}
