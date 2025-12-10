@@ -1,5 +1,5 @@
 import express from "express"
-import { getUser, login, signup, updateUser } from "../controllers/user.js"
+import { getUsers, login, signup, updateUser,logout } from "../controllers/user.js"
 
 
 import {authenticate} from "../middlewares/auth.js"

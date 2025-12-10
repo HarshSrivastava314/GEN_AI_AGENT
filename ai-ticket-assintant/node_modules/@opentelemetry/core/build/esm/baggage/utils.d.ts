@@ -1,5 +1,5 @@
 import { Baggage, BaggageEntryMetadata } from '@opentelemetry/api';
-declare type ParsedBaggageKeyValue = {
+type ParsedBaggageKeyValue = {
     key: string;
     value: string;
     metadata: BaggageEntryMetadata | undefined;
